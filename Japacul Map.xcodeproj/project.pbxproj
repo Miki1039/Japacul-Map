@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21F69516200B1DBF003DB667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F69515200B1DBF003DB667 /* AppDelegate.swift */; };
+		21F69518200B1DBF003DB667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F69517200B1DBF003DB667 /* ViewController.swift */; };
+		21F6951B200B1DBF003DB667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F69519200B1DBF003DB667 /* Main.storyboard */; };
+		21F6951D200B1DBF003DB667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F6951C200B1DBF003DB667 /* Assets.xcassets */; };
+		21F69520200B1DBF003DB667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6951E200B1DBF003DB667 /* LaunchScreen.storyboard */; };
+		21F6952B200B1DBF003DB667 /* Japacul_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F6952A200B1DBF003DB667 /* Japacul_MapTests.swift */; };
+		21F69536200B1DBF003DB667 /* Japacul_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F69535200B1DBF003DB667 /* Japacul_MapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21F69527200B1DBF003DB667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F6950A200B1DBF003DB667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F69511200B1DBF003DB667;
+			remoteInfo = "Japacul Map";
+		};
+		21F69532200B1DBF003DB667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F6950A200B1DBF003DB667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F69511200B1DBF003DB667;
+			remoteInfo = "Japacul Map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21F69512200B1DBF003DB667 /* Japacul Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japacul Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F69515200B1DBF003DB667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21F69517200B1DBF003DB667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21F6951A200B1DBF003DB667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21F6951C200B1DBF003DB667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F6951F200B1DBF003DB667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21F69521200B1DBF003DB667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F69526200B1DBF003DB667 /* Japacul MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Japacul MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F6952A200B1DBF003DB667 /* Japacul_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japacul_MapTests.swift; sourceTree = "<group>"; };
+		21F6952C200B1DBF003DB667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F69531200B1DBF003DB667 /* Japacul MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Japacul MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F69535200B1DBF003DB667 /* Japacul_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japacul_MapUITests.swift; sourceTree = "<group>"; };
+		21F69537200B1DBF003DB667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F6950F200B1DBF003DB667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F69523200B1DBF003DB667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F6952E200B1DBF003DB667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F69509200B1DBF003DB667 = {
+			isa = PBXGroup;
+			children = (
+				21F69514200B1DBF003DB667 /* Japacul Map */,
+				21F69529200B1DBF003DB667 /* Japacul MapTests */,
+				21F69534200B1DBF003DB667 /* Japacul MapUITests */,
+				21F69513200B1DBF003DB667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21F69513200B1DBF003DB667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F69512200B1DBF003DB667 /* Japacul Map.app */,
+				21F69526200B1DBF003DB667 /* Japacul MapTests.xctest */,
+				21F69531200B1DBF003DB667 /* Japacul MapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F69514200B1DBF003DB667 /* Japacul Map */ = {
+			isa = PBXGroup;
+			children = (
+				21F69515200B1DBF003DB667 /* AppDelegate.swift */,
+				21F69517200B1DBF003DB667 /* ViewController.swift */,
+				21F69519200B1DBF003DB667 /* Main.storyboard */,
+				21F6951C200B1DBF003DB667 /* Assets.xcassets */,
+				21F6951E200B1DBF003DB667 /* LaunchScreen.storyboard */,
+				21F69521200B1DBF003DB667 /* Info.plist */,
+			);
+			path = "Japacul Map";
+			sourceTree = "<group>";
+		};
+		21F69529200B1DBF003DB667 /* Japacul MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				21F6952A200B1DBF003DB667 /* Japacul_MapTests.swift */,
+				21F6952C200B1DBF003DB667 /* Info.plist */,
+			);
+			path = "Japacul MapTests";
+			sourceTree = "<group>";
+		};
+		21F69534200B1DBF003DB667 /* Japacul MapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21F69535200B1DBF003DB667 /* Japacul_MapUITests.swift */,
+				21F69537200B1DBF003DB667 /* Info.plist */,
+			);
+			path = "Japacul MapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F69511200B1DBF003DB667 /* Japacul Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F6953A200B1DBF003DB667 /* Build configuration list for PBXNativeTarget "Japacul Map" */;
+			buildPhases = (
+				21F6950E200B1DBF003DB667 /* Sources */,
+				21F6950F200B1DBF003DB667 /* Frameworks */,
+				21F69510200B1DBF003DB667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Japacul Map";
+			productName = "Japacul Map";
+			productReference = 21F69512200B1DBF003DB667 /* Japacul Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21F69525200B1DBF003DB667 /* Japacul MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F6953D200B1DBF003DB667 /* Build configuration list for PBXNativeTarget "Japacul MapTests" */;
+			buildPhases = (
+				21F69522200B1DBF003DB667 /* Sources */,
+				21F69523200B1DBF003DB667 /* Frameworks */,
+				21F69524200B1DBF003DB667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F69528200B1DBF003DB667 /* PBXTargetDependency */,
+			);
+			name = "Japacul MapTests";
+			productName = "Japacul MapTests";
+			productReference = 21F69526200B1DBF003DB667 /* Japacul MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21F69530200B1DBF003DB667 /* Japacul MapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F69540200B1DBF003DB667 /* Build configuration list for PBXNativeTarget "Japacul MapUITests" */;
+			buildPhases = (
+				21F6952D200B1DBF003DB667 /* Sources */,
+				21F6952E200B1DBF003DB667 /* Frameworks */,
+				21F6952F200B1DBF003DB667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F69533200B1DBF003DB667 /* PBXTargetDependency */,
+			);
+			name = "Japacul MapUITests";
+			productName = "Japacul MapUITests";
+			productReference = 21F69531200B1DBF003DB667 /* Japacul MapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F6950A200B1DBF003DB667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "実葵";
+				TargetAttributes = {
+					21F69511200B1DBF003DB667 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					21F69525200B1DBF003DB667 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21F69511200B1DBF003DB667;
+					};
+					21F69530200B1DBF003DB667 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21F69511200B1DBF003DB667;
+					};
+				};
+			};
+			buildConfigurationList = 21F6950D200B1DBF003DB667 /* Build configuration list for PBXProject "Japacul Map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21F69509200B1DBF003DB667;
+			productRefGroup = 21F69513200B1DBF003DB667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F69511200B1DBF003DB667 /* Japacul Map */,
+				21F69525200B1DBF003DB667 /* Japacul MapTests */,
+				21F69530200B1DBF003DB667 /* Japacul MapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F69510200B1DBF003DB667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F69520200B1DBF003DB667 /* LaunchScreen.storyboard in Resources */,
+				21F6951D200B1DBF003DB667 /* Assets.xcassets in Resources */,
+				21F6951B200B1DBF003DB667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F69524200B1DBF003DB667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F6952F200B1DBF003DB667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F6950E200B1DBF003DB667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F69518200B1DBF003DB667 /* ViewController.swift in Sources */,
+				21F69516200B1DBF003DB667 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F69522200B1DBF003DB667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F6952B200B1DBF003DB667 /* Japacul_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F6952D200B1DBF003DB667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F69536200B1DBF003DB667 /* Japacul_MapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21F69528200B1DBF003DB667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F69511200B1DBF003DB667 /* Japacul Map */;
+			targetProxy = 21F69527200B1DBF003DB667 /* PBXContainerItemProxy */;
+		};
+		21F69533200B1DBF003DB667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F69511200B1DBF003DB667 /* Japacul Map */;
+			targetProxy = 21F69532200B1DBF003DB667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21F69519200B1DBF003DB667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F6951A200B1DBF003DB667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21F6951E200B1DBF003DB667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F6951F200B1DBF003DB667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21F69538200B1DBF003DB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21F69539200B1DBF003DB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21F6953B200B1DBF003DB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Japacul Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Japacul-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		21F6953C200B1DBF003DB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Japacul Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Japacul-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		21F6953E200B1DBF003DB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Japacul MapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Japacul-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Japacul Map.app/Japacul Map";
+			};
+			name = Debug;
+		};
+		21F6953F200B1DBF003DB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Japacul MapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Japacul-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Japacul Map.app/Japacul Map";
+			};
+			name = Release;
+		};
+		21F69541200B1DBF003DB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Japacul MapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Japacul-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Japacul Map";
+			};
+			name = Debug;
+		};
+		21F69542200B1DBF003DB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Japacul MapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Japacul-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Japacul Map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F6950D200B1DBF003DB667 /* Build configuration list for PBXProject "Japacul Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F69538200B1DBF003DB667 /* Debug */,
+				21F69539200B1DBF003DB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F6953A200B1DBF003DB667 /* Build configuration list for PBXNativeTarget "Japacul Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F6953B200B1DBF003DB667 /* Debug */,
+				21F6953C200B1DBF003DB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21F6953D200B1DBF003DB667 /* Build configuration list for PBXNativeTarget "Japacul MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F6953E200B1DBF003DB667 /* Debug */,
+				21F6953F200B1DBF003DB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21F69540200B1DBF003DB667 /* Build configuration list for PBXNativeTarget "Japacul MapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F69541200B1DBF003DB667 /* Debug */,
+				21F69542200B1DBF003DB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21F6950A200B1DBF003DB667 /* Project object */;
+}
