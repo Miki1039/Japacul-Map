@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		217BA1CA201D9CA70091DE87 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217BA1C9201D9CA70091DE87 /* ShopViewController.swift */; };
 		21F69516200B1DBF003DB667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F69515200B1DBF003DB667 /* AppDelegate.swift */; };
 		21F69518200B1DBF003DB667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F69517200B1DBF003DB667 /* ViewController.swift */; };
 		21F6951B200B1DBF003DB667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F69519200B1DBF003DB667 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		217BA1C9201D9CA70091DE87 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopViewController.swift; path = ../ShopViewController.swift; sourceTree = "<group>"; };
 		21F69512200B1DBF003DB667 /* Japacul Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japacul Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F69515200B1DBF003DB667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21F69517200B1DBF003DB667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				21F69515200B1DBF003DB667 /* AppDelegate.swift */,
 				21F69517200B1DBF003DB667 /* ViewController.swift */,
+				217BA1C9201D9CA70091DE87 /* ShopViewController.swift */,
 				21F69519200B1DBF003DB667 /* Main.storyboard */,
 				21F6951C200B1DBF003DB667 /* Assets.xcassets */,
 				21F6951E200B1DBF003DB667 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				21F69518200B1DBF003DB667 /* ViewController.swift in Sources */,
 				21F69516200B1DBF003DB667 /* AppDelegate.swift in Sources */,
+				217BA1CA201D9CA70091DE87 /* ShopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				21F6953C200B1DBF003DB667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21F6953D200B1DBF003DB667 /* Build configuration list for PBXNativeTarget "Japacul MapTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				21F6953F200B1DBF003DB667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21F69540200B1DBF003DB667 /* Build configuration list for PBXNativeTarget "Japacul MapUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				21F69542200B1DBF003DB667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
