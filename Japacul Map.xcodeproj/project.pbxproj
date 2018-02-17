@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		217BA1CA201D9CA70091DE87 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217BA1C9201D9CA70091DE87 /* ShopViewController.swift */; };
+		21D748A92038433B00098435 /* ShopDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D748A82038433B00098435 /* ShopDetailViewController.swift */; };
 		21F69516200B1DBF003DB667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F69515200B1DBF003DB667 /* AppDelegate.swift */; };
 		21F69518200B1DBF003DB667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F69517200B1DBF003DB667 /* ViewController.swift */; };
 		21F6951B200B1DBF003DB667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F69519200B1DBF003DB667 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		217BA1C9201D9CA70091DE87 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopViewController.swift; path = ../ShopViewController.swift; sourceTree = "<group>"; };
+		21D748A82038433B00098435 /* ShopDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDetailViewController.swift; sourceTree = "<group>"; };
 		21F69512200B1DBF003DB667 /* Japacul Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japacul Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F69515200B1DBF003DB667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21F69517200B1DBF003DB667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				21F6951C200B1DBF003DB667 /* Assets.xcassets */,
 				21F6951E200B1DBF003DB667 /* LaunchScreen.storyboard */,
 				21F69521200B1DBF003DB667 /* Info.plist */,
+				21D748A82038433B00098435 /* ShopDetailViewController.swift */,
 			);
 			path = "Japacul Map";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F69518200B1DBF003DB667 /* ViewController.swift in Sources */,
+				21D748A92038433B00098435 /* ShopDetailViewController.swift in Sources */,
 				21F69516200B1DBF003DB667 /* AppDelegate.swift in Sources */,
 				217BA1CA201D9CA70091DE87 /* ShopViewController.swift in Sources */,
 			);
