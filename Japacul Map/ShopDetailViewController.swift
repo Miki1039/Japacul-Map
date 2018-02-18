@@ -7,3 +7,12 @@
 //
 
 import Foundation
+import UIKit
+
+class ShopDetailViewController: UIViewController {
+
+ @IBOutlet var shopImage: UIImageView!
+ @IBOutlet var shopName: UILabel!
+ @IBOutlet var shopDescription: UITextView!
+
+}
