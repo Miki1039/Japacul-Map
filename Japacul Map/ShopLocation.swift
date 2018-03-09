@@ -61,7 +61,7 @@ class ShopLocationList: NSObject {
     shop += [ShopLocation(name:"すみだ江戸切子館", lat:35.701256,long:139.813039,addInfo:"info")]
     
     shopDetails[10] = ["蒔絵スタジオ祥幹","test","詳細を記入"]
-    shop += [ShopLocation(name:"蒔絵スタジオ祥幹", lat:35.671928,long:139.760815,addInfo:"info")]
+    shop += [ShopLocation(name:"蒔絵スタジオ祥幹", lat:35.667149,long:139.718032,addInfo:"info")]
     
     shopDetails[11] = ["東京染ものがたり博物館","test","詳細を記入"]
     shop += [ShopLocation(name:"東京染ものがたり博物館", lat:35.713324,long:139.716409,addInfo:"info")]
