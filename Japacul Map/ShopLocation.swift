@@ -16,12 +16,12 @@ class ShopLocation: NSObject, MKAnnotation{
  var subtitle: String?
  var coordinate: CLLocationCoordinate2D
     
-  init(name:String,lat:CLLocationDegrees,long:CLLocationDegrees,addInfo:String){
+    init(name:String,lat:CLLocationDegrees,long:CLLocationDegrees,addInfo:String){
         title = name
         coordinate = CLLocationCoordinate2DMake(lat, long)
         subtitle = addInfo
-  }
-
+    }
+    
 }
 
 class ShopLocationList: NSObject {
