@@ -78,7 +78,7 @@ class ShopLocationList: NSObject {
     shopDetails[15] = ["備後屋","test","詳細を記入"]
     shop += [ShopLocation(name:"備後屋", lat:35.699293,long:139.717820,addInfo:"info")]
     
- }
+    }
 
 
 }

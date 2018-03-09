@@ -16,9 +16,7 @@ class TokyoCenterCoordinate: NSObject,MKAnnotation{
     var title: String? = "Tokyo Station"
 }
 
-class ViewController: UIViewController {
-        
-        class ViewController: UIViewController,MKMapViewDelegate {
+class ViewController: UIViewController,MKMapViewDelegate {
 
             @IBOutlet var mapView: MKMapView!
             let shops = ShopLocationList().shop
@@ -35,15 +33,47 @@ class ViewController: UIViewController {
             }
             
             func resetRegion(){
-                let region = MKCoordinateRegionMakeWithDistance(tokyoCoordinate, 5000, 5000)
+                let shopIcon = UIImage(named: "Shop")
+                let tokyoIcon = UIImage(named: "Tokyo station")
                 
-                func setRegion(region: MKCoordinateRegion, animated: Bool){
-                
-                }
-            }
-            
-        }
-    
+                func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+                    
+                    if let annotation = annotation as? ShopLocation{
+                        if let view = mapView.dequeueReusableAnnotationView(withIdentifier: annotation.identifier){
+                            return view
+                        }else{
+                            let view = MKAnnotationView(annotation: annotation, reuseIdentifier: annotation.identifier)
+                            let infoBtn = UIButton(type: UIButtonType.detailDisclosure)
+                            infoBtn.addTarget(self, action: #selector(infoBtnWasPressed), for: .touchUpInside)
+                            view.image = pizzaPin
+                            view.isEnabled = true
+                            view.canShowCallout = true
+                            view.leftCalloutAccessoryView = UIImageView(image: shopIcon)
+                            view.rightCalloutAccessoryView = infoBtn
+                            
+                            return view
+                        }
+                    }else{
+                        if let annotation = annotation as? TokyoCenterCoordinate{
+                            if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: "center"){
+                                return dequeuedView
+                            }else {
+                                let view = MKAnnotationView(annotation: annotation, reuseIdentifier: "center")
+                                view.image = tokyoIcon
+                                view.isEnabled = true
+                                view.canShowCallout = true
+                                return view
+                            }
+                        }
+                    }
+                    return nil
+             let region = MKCoordinateRegionMakeWithDistance(tokyoCoordinate, 5000, 5000)
+             
+             mapView.setRegion(region,animated: true)
+             
+             }
+
+           }
 }
 
 
