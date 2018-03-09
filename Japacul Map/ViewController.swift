@@ -9,13 +9,41 @@
 import UIKit
 import MapKit
 
-class ViewController: UIViewController {
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+let tokyoCoordinate = CLLocationCoordinate2DMake(35.681167, 139.767052)
 
-    }
-    
+class TokyoCenterCoordinate: NSObject,MKAnnotation{
+    var coordinate: CLLocationCoordinate2D = tokyoCoordinate
+    var title: String? = "Tokyo Station"
 }
+
+class ViewController: UIViewController {
+        
+        class ViewController: UIViewController,MKMapViewDelegate {
+
+            @IBOutlet var mapView: MKMapView!
+            let shops = ShopLocationList().shop
+            
+            override func viewDidLoad() {
+                super.viewDidLoad()
+                
+                var center: CLLocationCoordinate2D = tokyoCoordinate
+                self.resetRegion()
+                
+                mapView.addAnnotation(TokyoCenterCoordinate())
+                mapView.addAnnotations(shops)
+                mapView.delegate = self
+            }
+            func resetRegion(){
+                let region = MKCoordinateRegionMakeWithDistance(CLLocationCoordinate2D, CLLocationDistance, CLLocationDistance)
+                let region = MKCoordinateRegionMakeWithDistance(tokyoCoordinate, 5000, 5000)
+                //代入したのはいいけどこんどはsetRegionして設定をしないといけない
+                func setRegion(region: MKCoordinateRegion, animated: Bool){
+            
+                }
+                
+            }
+        
+        }
+}
+
+

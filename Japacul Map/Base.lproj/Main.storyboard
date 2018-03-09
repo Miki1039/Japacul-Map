@@ -75,7 +75,7 @@
         <!--View Controller-->
         <scene sceneID="bR2-KS-21Z">
             <objects>
-                <viewController id="qc3-kz-fFy" sceneMemberID="viewController">
+                <viewController id="qc3-kz-fFy" customClass="ViewController" customModule="Japacul_Map" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rng-yR-x3Z"/>
                         <viewControllerLayoutGuide type="bottom" id="1K1-aR-kyP"/>
