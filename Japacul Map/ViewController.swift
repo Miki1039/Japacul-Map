@@ -33,17 +33,18 @@ class ViewController: UIViewController {
                 mapView.addAnnotations(shops)
                 mapView.delegate = self
             }
-            func resetRegion(){
-                let region = MKCoordinateRegionMakeWithDistance(CLLocationCoordinate2D, CLLocationDistance, CLLocationDistance)
-                let region = MKCoordinateRegionMakeWithDistance(tokyoCoordinate, 5000, 5000)
-                //代入したのはいいけどこんどはsetRegionして設定をしないといけない
-                func setRegion(region: MKCoordinateRegion, animated: Bool){
             
-                }
+            func resetRegion(){
+                let region = MKCoordinateRegionMakeWithDistance(tokyoCoordinate, 5000, 5000)
                 
+                func setRegion(region: MKCoordinateRegion, animated: Bool){
+                
+                }
             }
-        
+            
         }
+    
 }
+
 
 
