@@ -14,10 +14,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Japacul_Map" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Japacul_Map" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -34,16 +34,13 @@
                                 <rect key="frame" x="151" y="377" width="208" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Experience"/>
-                                <connections>
-                                    <segue destination="qc3-kz-fFy" kind="modal" id="XYm-40-VAR"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zH-3w-ceG">
                                 <rect key="frame" x="16" y="378" width="204" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Shop"/>
+                                <state key="normal" image="Shop-1"/>
                                 <connections>
-                                    <segue destination="rhO-63-jlj" kind="modal" id="SVS-rn-Swe"/>
+                                    <segue destination="rhO-63-jlj" kind="presentation" id="zhA-pS-2Aw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIA-Jt-FCn">
@@ -72,34 +69,10 @@
             </objects>
             <point key="canvasLocation" x="36" y="38.23088455772114"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="bR2-KS-21Z">
-            <objects>
-                <viewController id="qc3-kz-fFy" customClass="ViewController" customModule="Japacul_Map" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Rng-yR-x3Z"/>
-                        <viewControllerLayoutGuide type="bottom" id="1K1-aR-kyP"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ewJ-aK-9vh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yeZ-r4-ZXq">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rJQ-ZP-U9Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="821.60000000000002" y="454.72263868065971"/>
-        </scene>
-        <!--Shop Detail View Controller-->
+        <!--Shop Detailed View Controller-->
         <scene sceneID="4Bz-gG-vRx">
             <objects>
-                <viewController id="QcE-sf-hhu" customClass="ShopDetailViewController" sceneMemberID="viewController">
+                <viewController id="QcE-sf-hhu" customClass="ShopDetailedViewController" customModule="Japacul_Map" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uBL-6h-0hp"/>
                         <viewControllerLayoutGuide type="bottom" id="DTx-dP-7vr"/>
@@ -113,20 +86,23 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="aNG-cD-Jqo" kind="unwind" unwindAction="unwindToFirstViewWithSegue:" id="zLI-VK-Qu5"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oyD-cA-PF7">
-                                <rect key="frame" x="47" y="44" width="281" height="294"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shop name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJE-Qm-fs8">
-                                <rect key="frame" x="47" y="368" width="281" height="35"/>
+                                <rect key="frame" x="47" y="354" width="281" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iez-bu-XAf" userLabel="shopImage">
+                                <rect key="frame" x="37" y="28" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YVu-Wm-hN3">
-                                <rect key="frame" x="67" y="421" width="240" height="128"/>
+                                <rect key="frame" x="67" y="397" width="240" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -137,19 +113,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
-                        <outlet property="shopDescription" destination="YVu-Wm-hN3" id="2rA-Jc-CoB"/>
-                        <outlet property="shopImage" destination="oyD-cA-PF7" id="QNP-Zq-IiE"/>
-                        <outlet property="shopName" destination="XJE-Qm-fs8" id="C8r-80-3cs"/>
+                        <outlet property="shopDescription" destination="YVu-Wm-hN3" id="laY-Um-yxF"/>
+                        <outlet property="shopImage" destination="iez-bu-XAf" id="3pE-Bs-XeR"/>
+                        <outlet property="shopName" destination="XJE-Qm-fs8" id="8D6-Jh-41e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="18e-ZJ-n0d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="aNG-cD-Jqo" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1764" y="-397.15142428785612"/>
+            <point key="canvasLocation" x="1701.5999999999999" y="35.532233883058474"/>
         </scene>
-        <!--Shop View Controller-->
+        <!--Shop Detailed View Controller-->
         <scene sceneID="yx8-VM-VGS">
             <objects>
-                <viewController id="rhO-63-jlj" customClass="ShopViewController" customModule="Japacul_Map" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rhO-63-jlj" customClass="ShopDetailedViewController" customModule="Japacul_Map" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s04-iz-zYn"/>
                         <viewControllerLayoutGuide type="bottom" id="xKh-EV-XWQ"/>
@@ -158,26 +135,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="91v-GH-M1i">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="91v-GH-M1i">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="91v-GH-M1i" firstAttribute="leading" secondItem="qjB-Wx-mbH" secondAttribute="leading" id="UFB-aP-bxf"/>
+                            <constraint firstItem="91v-GH-M1i" firstAttribute="top" secondItem="qjB-Wx-mbH" secondAttribute="top" id="fXd-bf-jPI"/>
+                            <constraint firstAttribute="trailing" secondItem="91v-GH-M1i" secondAttribute="trailing" id="hJL-NL-rOp"/>
+                            <constraint firstItem="xKh-EV-XWQ" firstAttribute="top" secondItem="91v-GH-M1i" secondAttribute="bottom" id="wOD-h3-G8f"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="91v-GH-M1i" id="b6p-gE-oxX"/>
+                        <outlet property="mapView" destination="91v-GH-M1i" id="oIH-Js-BPh"/>
+                        <segue destination="QcE-sf-hhu" kind="presentation" identifier="toDetailViewController" id="Jk7-gP-8N5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VaD-72-fEh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="821.60000000000002" y="-397.15142428785612"/>
+            <point key="canvasLocation" x="852" y="37"/>
         </scene>
     </scenes>
     <resources>
         <image name="Experience" width="794" height="792"/>
         <image name="Main view" width="852" height="850"/>
-        <image name="Shop" width="764" height="762"/>
+        <image name="Shop-1" width="764" height="762"/>
         <image name="moji" width="534" height="948"/>
     </resources>
 </document>
